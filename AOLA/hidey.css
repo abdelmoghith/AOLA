@@ -96,6 +96,7 @@
     margin: 10px;
     border-top: 1px solid #ab8c52;
     padding: 10px;
+      padding-top: 30px;
 }
 
 @media (max-width:320px) {
