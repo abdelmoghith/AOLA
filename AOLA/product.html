@@ -11,7 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="product.css" />
     <link rel="stylesheet" href="all.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <title>AOLA</title>
   </head>
@@ -30,68 +33,88 @@
       </div>
     </div>
 
-
     <div class="product">
-        <div class="image" id="img1"></div>
-        <h3>Parure Norma</h3>
-        <p>6,000 DA</p>
+      <div class="image" id="img1"></div>
+      <h3>Parure Norma</h3>
+      <p>6,000 DA</p>
     </div>
 
     <div class="btn">
-        <button id="valider" name="valider">Acheter</button>
-
+      <button id="valider" name="valider">Acheter</button>
     </div>
 
-      <div class="description">
-        Parure collier + gourmette en acier chirurgical 316 L doré à l'or fin. <br><br>
+    <div class="description">
+      Parure collier + gourmette en acier chirurgical 316 L doré à l'or fin.
+      <br /><br />
 
-Collier Paris + gourmette Hela <br><br>
+      Collier Paris + gourmette Hela <br /><br />
 
-• Pierres naturelles semi-précieuses : Cornaline <br>
-• Sans nickel, hypoallergéniques <br>
-• Respectent votre peau <br>
-• Résistent à l’eau et ne noircissent pas <br>
-• Longueur du collier : 35 cm + 7 cm de chaine de réglage <br>
- 
-• Longueur du bracelet : 16 cm + 3 cm de réglage <br><br>
+      • Pierres naturelles semi-précieuses : Cornaline <br />
+      • Sans nickel, hypoallergéniques <br />
+      • Respectent votre peau <br />
+      • Résistent à l’eau et ne noircissent pas <br />
+      • Longueur du collier : 35 cm + 7 cm de chaine de réglage <br />
 
-Bijou orné de pierres naturelles, dont les teintes peuvent varier d'une pièce à l'autre. <br><br>
-Chacune des pierres de nos bijoux est unique ce qui fait leur charme et rend votre bijou unique à son tour. <br><br>
+      • Longueur du bracelet : 16 cm + 3 cm de réglage <br /><br />
 
-Livrée dans une jolie boîte Atelier AOLA.
-Une boîte par commande.
-Pour avoir des boîtes supplémentaires, n’oubliez pas de les ajouter à votre panier.
+      Bijou orné de pierres naturelles, dont les teintes peuvent varier d'une
+      pièce à l'autre. <br /><br />
+      Chacune des pierres de nos bijoux est unique ce qui fait leur charme et
+      rend votre bijou unique à son tour. <br /><br />
 
-Vos petits bijoux sont précieux, consultez notre guide d'entretien pour en prendre soin.
-      </div>
+      Livrée dans une jolie boîte Atelier AOLA. Une boîte par commande. Pour
+      avoir des boîtes supplémentaires, n’oubliez pas de les ajouter à votre
+      panier. Vos petits bijoux sont précieux, consultez notre guide d'entretien
+      pour en prendre soin.
+    </div>
 
-      <h3 style="text-align: center;
-      margin-top: 20px;">Autre Produit</h3>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="product">
-                    <div class="image" id="img1"></div>
-                    <h3>Parure Norma</h3>
-                    <p>6,000 DA</p>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="product">
-                    <div class="image" id="img2" ></div>
-                    <h3>Parure Rosa</h3>
-                    <p>7,000 DA</p>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="product">
-                    <div class="image" id="img3"></div>
-                    <h3>Parure Aurora</h3>
-                    <p>8,000 DA</p>
-                </div>
-            </div>
+    <h3 style="text-align: center; margin-top: 20px">Autre Produit</h3>
+    
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="product">
+            <div class="image" id="img1"></div>
+            <h3>Parure Norma</h3>
+            <p>6,000 DA</p>
+          </div>
         </div>
-    </div>
+        
+        <div class="swiper-slide">
+          
+          <div class="product">
+            <div class="image" id="img2"></div>
+            <h3>Parure Rosa</h3>
+            <p>7,000 DA</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="product">
+            <div class="image" id="img3"></div>
+            <h3>Parure Aurora</h3>
+            <p>8,000 DA</p>
+          </div>
+        </div>
+      </div>
+   
+
+      </div>
+    <p style="text-align: center;"> <---------  ---------></p>
+    
+    <!-- Link to Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // Initialize Swiper
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+    
 
     <div class="footer">
       <h3>menu principal</h3>
@@ -126,18 +149,5 @@ Vos petits bijoux sont précieux, consultez notre guide d'entretien pour en pren
         téléphone, email, messagerie Instagram, Messenger ou Whatsapp
       </p>
     </div>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper-container', {
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            autoplay: {
-                delay: 5000,
-            },
-        });
-    </script>
   </body>
 </html>
